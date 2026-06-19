@@ -46,12 +46,15 @@ I'm currently scaling up my knowledge to handle enterprise-level systems:
 
 ## 🧰 My Toolkit
 
-| Layer | Technologies |
+| Layer | Technologies & Libraries |
 | :--- | :--- |
-| **Languages** | Python, C/C++, Java, C#, SQL, TypeScript, JavaScript, HTML/CSS |
-| **Frameworks** | React.js, Node.js, AngularJS, .NET Core, .NET WinForm, MVC, Java Swing/AWT |
-| **Tools & Databases** | Git, Linux, MySQL, SQL Server, MongoDB, Android Studio, VS Code |
-| **Cloud & Certs** | **AWS Certified Cloud Practitioner** ☁️ |
+| Languages | Python, C/C++, Java, C#, SQL, TypeScript, JavaScript, HTML/CSS |
+| Frontend Ecosystem | React.js (18/19), Zustand, Vite, Tailwind CSS, AngularJS |
+| Specialized UI & Media | Tiptap Core (Rich-Text Engines), OpenSheetMusicDisplay (Vector Sheet Music), Tone.js (Web Audio API Engine) |
+| Backend & Frameworks | Node.js, Express, .NET Core, .NET WinForm, MVC, Java Swing/AWT |
+| Databases & ORMs | Supabase, PostgreSQL, Prisma ORM, MySQL, SQL Server, MongoDB |
+| Auth & Infra | Clerk Auth, Git, Linux, Android Studio, VS Code |
+| Cloud & Certs | AWS Certified Cloud Practitioner ☁️ |
 
 ---
 

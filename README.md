@@ -1,14 +1,8 @@
-<div align="center">
-
 # Hi, I'm Michael 👋
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/michael-liu-uw/) [![Email](https://img.shields.io/badge/Email-michaelliu2016%40gmail.com-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:michaelliu2016@gmail.com)
 
 I’m a software engineer who loves making fun apps that bridge the gap between interests and clean digital systems. Whether I'm trying to translate real-world mechanics into code, or cleaning up messy data pipelines, I thoroughly enjoy spending my free time with backend architecture, UI design and smart state management.
 
 Right now, I'm sharpening my skills in distributed systems and prepping for Winter 2027 SWE and AI Engineering internships.
-
-</div>
 
 ---
 

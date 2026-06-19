@@ -1,6 +1,6 @@
 # Hi, I'm Michael 👋
 
-I’m a software engineer who loves tearing apart complex systems and figuring out how to make them run better. Whether I'm trying to translate real-world mechanics  into precise code, or cleaning up messy data pipelines, I thoroughly enjoy spending my free time with backend architecture and smart state management.
+I’m a software engineer who loves making fun apps that bridge the gap between interests and clean digital systems. Whether I'm trying to translate real-world mechanics into code, or cleaning up messy data pipelines, I thoroughly enjoy spending my free time with backend architecture, UI design and smart state management.
 
 Right now, I'm sharpening my skills in distributed systems and prepping for Winter 2027 SWE and AI Engineering internships.
 

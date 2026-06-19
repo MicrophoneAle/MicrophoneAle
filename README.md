@@ -9,19 +9,19 @@ Right now, I'm sharpening my skills in distributed systems and prepping for Wint
 ## 🛠️ What I’ve Been Building Recently
 
 ### 📚 Booky 
-*A web reader that transforms PDFs into clean digital book spreads.*
-* **Problem:** PDF text and images are notoriously chaotic. I built a multi-phase pipeline using `pdfjs-dist` and `Tesseract OCR` to handle layout nightmare cases—like pulling embedded graphics cleanly, dealing with weird letter-spaced headers, and running OCR on custom chapter banners. 
-* **Testing:** To make sure new feature updates didn't accidentally break old book uploads, I built a custom automated regression testing harness to guarantee structural stability across my entire digital library.
+*An intelligent digital reading platform that reconstructs unstructured PDFs into typographically precise, multi-device two-page book spreads featuring full chapter navigation and custom layout controls.*
+* Problem: PDF layouts are notoriously chaotic data streams. I built a multi-phase extraction pipeline using pdfjs-dist and Tesseract OCR to structuralize raw text blocks. This handles complex layout anomalies—including stripping tracking artifacts, collapsing letter-spaced running headers, and executing localized OCR on image-based chapter banner plaques.
+* Testing: To ensure parser updates don't cause layout regression, I developed a node-driven automated testing harness that compares parsed node outputs against an established baseline of complex text and image-heavy documents.
 
 ### 🎹 PlayRight 
-*An interactive piano practice app that maps MusicXML data to real-time physical computer keyboard tracking.*
-* **Problem:** To make the app actually helpful, I designed an algorithmic finger-predictor using dynamic programming that models hand-span limits to calculate the most natural finger movements over complex chords.
-* **Architecture:** I built a custom event interceptor to separate live MIDI and computer keyboard inputs from the core state machine, making sure the visual musical score scrolls seamlessly right alongside the user's playing.
+*A browser-based piano practice accelerator that parses raw MusicXML scores into interactive sheet music sheets paired with automated fingering prediction and dynamic keyboard tracking.*
+* Problem: Standard sheet music lacks intuitive finger assignments. I engineered a cost-based dynamic programming solver that analyzes phrase boundaries and hand-span constraints to calculate optimal digit placements over complex chords.
+* Architecture: Designed a decoupled event processing architecture using a custom InputManager. This isolates high-frequency ASCII/MIDI hardware keystrokes from the core Zustand state machine, allowing the OpenSheetMusicDisplay canvas to highlight and scroll smoothly in sync with active performance thresholds.
 
 ### ✍️ Michael's Babbles 
-*A highly responsive, clean personal journaling application wrapped in a customized rich-text editor.*
-* **Problem:** To prevent the database from getting bogged down by raw media uploads, I built custom limits into the TipTap text schema to safely catch and handle larger file payloads right on the client side.
-* **Details:** Engineered a smooth, non-blocking 10-second auto-save loop to prevent data loss, alongside secure owner-route verification.
+*A secure, interactive digital journaling space built on a layered parchment framework featuring deep rich-text formatting, search indexing, writing prompts, and real-time statistics tracking.*
+* Problem: Storing rich media content directly in a document editor can create bloated payloads that strain network requests. I extended the TipTap schema to intercept image insertions, dynamically validating file sizes directly on the client side to prevent database performance degradation.
+* Details: Implemented a non-blocking 10-second auto-save heartbeat loop coupled with a Prisma and PostgreSQL backend. Secured the entry lifecycle via Clerk authentication tokens to enforce read-only visibility for visitors while preserving write privileges for the owner.
 
 ---
 
@@ -38,9 +38,10 @@ When I'm not staring at a code editor or working through LeetCode problems, you 
 
 ## 🚀 Current Technical Focus
 
-I'm currently scaling up my knowledge to handle enterprise-level systems:
-* **Infrastructure:** Dive-deep into Docker and multi-container networking (`docker-compose`) to break heavy monolithic workflows into separate, asynchronous background workers.
-* **Data & AI Rigor:** Building smarter systems with schema-enforced LLM parsing (getting clean JSON back from models every time) and learning the mechanics behind semantic vector search.
+I'm currently scaling up my knowledge to handle enterprise-level systems and expanding my creative engineering toolkit:
+* Infrastructure: Diving deep into Docker and multi-container networking (docker-compose) to break heavy monolithic workflows into separate, asynchronous background workers.
+* Data & AI Rigor: Building smarter systems with schema-enforced LLM parsing (getting clean JSON back from models every time) and learning the mechanics behind semantic vector search.
+* Advanced Projects & 3D Assets: Expanding game engineering mechanics by building out more complex interactions in projects like Meltdown. Also learning Blender to design and render custom 3D assets to build an immersive, highly visual personal portfolio website.
 
 ---
 

@@ -30,7 +30,7 @@ Right now, I'm sharpening my skills in distributed systems and prepping for Wint
 When I'm not staring at a code editor or working through LeetCode problems, you can usually find me doing a few other things:
 
 * **Music:** I love playing instruments. I spend a lot of time on the piano (which is what inspired PlayRight as I don't have access to a physical keyboard this co-op term) and I also play the trombone. 
-* **Reading:** Massive fantasy worldbuilding is my not-so-guilty pleasure. I'm a huge fan of the works of George R. R. Martin (Winds 2027??) and have recently been getting into the works of Brandon Sanderson and Pierce Brown. 
+* **Reading:** Massive fantasy worldbuilding is my not-so-guilty pleasure. I'm a huge fan of the works of George R. R. Martin (Winds 2027??), and have recently been getting into the works of Brandon Sanderson and Pierce Brown. 
 * **Sports & Travel:** I love exploring new places, and I'm a big fan of watching hockey and basketball despite having an on-and-off relationship with the Toronto Maple Leafs.
 * **Board Games:** Always down for a game night, especially if it involves port play and gambling on development cards in *Catan*.
 
@@ -45,17 +45,17 @@ I'm currently scaling up my knowledge to handle enterprise-level systems and exp
 
 ---
 
-## 🧰 My Toolkit
+## 🧰 The Toolkit
 
 | Layer | Technologies & Libraries |
 | :--- | :--- |
-| Languages | Python, C/C++, Java, C#, SQL, TypeScript, JavaScript, HTML/CSS |
-| Frontend Ecosystem | React.js (18/19), Zustand, Vite, Tailwind CSS, AngularJS |
-| Specialized UI & Media | Tiptap Core (Rich-Text Engines), OpenSheetMusicDisplay (Vector Sheet Music), Tone.js (Web Audio API Engine) |
-| Backend & Frameworks | Node.js, Express, .NET Core, .NET WinForm, MVC, Java Swing/AWT |
-| Databases & ORMs | Supabase, PostgreSQL, Prisma ORM, MySQL, SQL Server, MongoDB |
-| Auth & Infra | Clerk Auth, Git, Linux, Android Studio, VS Code |
-| Cloud & Certs | AWS Certified Cloud Practitioner ☁️ |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-%2300758F.svg?style=for-the-badge&logo=mysql&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) |
+| **Frontend Ecosystem** | ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Zustand](https://img.shields.io/badge/Zustand-%23443E38.svg?style=for-the-badge&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![AngularJS](https://img.shields.io/badge/AngularJS-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) |
+| **Specialized UI & Media** | ![Tiptap](https://img.shields.io/badge/Tiptap-%2324292E.svg?style=for-the-badge&logo=prosemirror&logoColor=white) ![OSMD](https://img.shields.io/badge/OSMD-%23008080.svg?style=for-the-badge&logo=musicbrainz&logoColor=white) ![Tone.js](https://img.shields.io/badge/Tone.js-%23000000.svg?style=for-the-badge&logo=web-audio-api&logoColor=white) |
+| **Backend & Frameworks** | ![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-%23000000.svg?style=for-the-badge&logo=express&logoColor=white) ![.NET Core](https://img.shields.io/badge/.NET%20Core-%23512BD4.svg?style=for-the-badge&logo=dotnet&logoColor=white) ![WinForms](https://img.shields.io/badge/WinForms-%23512BD4.svg?style=for-the-badge&logo=windows&logoColor=white) ![MVC](https://img.shields.io/badge/MVC-%234D4D4D.svg?style=for-the-badge&logo=architecture&logoColor=white) ![Java Swing/AWT](https://img.shields.io/badge/Swing%20%2F%20AWT-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) |
+| **Databases & ORMs** | ![Supabase](https://img.shields.io/badge/Supabase-%233ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/Postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-%232D3748.svg?style=for-the-badge&logo=prisma&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL%20Server-%23CC292B.svg?style=for-the-badge&logo=microsoft-sql-server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white) |
+| **Auth & Infra** | ![Clerk](https://img.shields.io/badge/Clerk%20Auth-%236C47FF.svg?style=for-the-badge&logo=clerk&logoColor=white) ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black) ![Android Studio](https://img.shields.io/badge/Android%20Studio-%233DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) |
+| **Cloud & Certs** | ![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS%20Cloud%20Practitioner-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) |
 
 ---
 

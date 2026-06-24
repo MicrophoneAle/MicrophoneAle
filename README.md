@@ -42,7 +42,7 @@ When I'm not staring at a code editor or working through LeetCode problems, you 
 
 ---
 
-## 🚀 Current Technical Focus
+## 🚀 Current Focus
 
 I'm currently scaling up my knowledge to handle enterprise-level systems and expanding my creative engineering toolkit:
 * **Infrastructure:** Diving deep into Docker and multi-container networking (docker-compose) to break heavy monolithic workflows into separate, asynchronous background workers.
@@ -51,7 +51,7 @@ I'm currently scaling up my knowledge to handle enterprise-level systems and exp
 
 ---
 
-## 🧰 The Toolkit
+## 🧰 Technical Skills
 
 | Layer | Technologies & Libraries |
 | :--- | :--- |

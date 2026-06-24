@@ -7,9 +7,9 @@ I’m a software engineer who loves making apps that bridge the gap between inte
 ## 🛠️ What I’ve Been Building Recently
 
 ### 📚 Booky 
-> *An intelligent digital reading platform that reconstructs unstructured PDFs into typographically precise, multi-device two-page book spreads featuring full chapter navigation and custom layout controls.*
+> *A digital reading platform that reconstructs unstructured PDFs into typographically accurate, multi-device, two-page book spreads featuring full chapter navigation and custom layout controls.*
 > 
-> **Problem:** PDF layouts are notoriously chaotic data streams. I built a multi-phase extraction pipeline using pdfjs-dist and Tesseract OCR to structuralize raw text blocks. This handles complex layout anomalies—including stripping tracking artifacts, collapsing letter-spaced running headers, and executing localized OCR on image-based chapter banner plaques.
+> **Problem:** PDF layouts are extremely chaotic data streams. I built a multi-phase extraction pipeline using pdfjs-dist and Tesseract OCR to structuralize raw text blocks. This handles complex layout anomalies—including stripping tracking artifacts, collapsing letter-spaced running headers, and executing localized OCR on image-based chapter banner plaques.
 > 
 > **Testing:** To ensure parser updates don't cause layout regression, I developed a node-driven automated testing harness that compares parsed node outputs against an established baseline of complex text and image-heavy documents.
 

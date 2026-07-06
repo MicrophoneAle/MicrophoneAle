@@ -18,7 +18,7 @@ I’m a software engineer who enjoys making apps that bridge the gap between int
 > 
 > **Problem:** Standard sheet music lacks intuitive finger assignments. I engineered a cost-based dynamic programming solver that analyzes phrase boundaries and hand-span constraints to calculate optimal digit placements over complex chords.
 > 
-> **Architecture:** Designed a decoupled event processing architecture using a custom InputManager. This isolates high-frequency ASCII/MIDI hardware keystrokes from the core Zustand state machine, allowing the OpenSheetMusicDisplay canvas to highlight and scroll smoothly in sync with active performance thresholds.
+> **Architecture:** Designed a decoupled event processing architecture using a custom InputManager. This isolates high-frequency ASCII/MIDI hardware keystrokes from the core Zustand state machine, allowing the OpenSheetMusicDisplay (OSMD) canvas to highlight and scroll smoothly in sync with active performance thresholds.
 
 ### ✍️ Michael's Babbles 
 > *A secure, interactive digital journaling space built on a layered parchment framework featuring deep rich-text formatting, search indexing, writing prompts, and real-time statistics tracking.*
@@ -31,7 +31,7 @@ I’m a software engineer who enjoys making apps that bridge the gap between int
 
 ## 🎲 Beyond the Commits
 
-When I'm not staring at a code editor or working through LeetCode problems, you can usually find me doing a few other things:
+When I'm not staring at a terminal or working through LeetCode problems, you can usually find me doing a few other things:
 
 * **Music:** I love playing instruments. I spend a lot of time on the piano (which is what inspired PlayRight as I don't have access to a physical keyboard this co-op term) and I also play the trombone. 
 * **Reading:** Massive fantasy worldbuilding is my not-so-guilty pleasure. I'm a huge fan of the works of George R. R. Martin (Winds 2027??), and have recently been getting into the works of Brandon Sanderson and Pierce Brown. 

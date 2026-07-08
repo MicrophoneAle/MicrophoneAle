@@ -24,18 +24,18 @@ Right now, I'm sharpening my skills in distributed systems and prepping for Wint
 ## 🛠️ What I’ve Been Building Recently
 
 ### 📚 Booky 
-> *A digital reading platform that reconstructs unstructured PDFs into typographically accurate, multi-device, two-page book spreads featuring full chapter navigation and custom layout controls.*
+> *An intelligent web reader that structuralizes unstructured PDFs into comfortable, highly custom digital layouts featuring dynamic chapter detection, live parsing progress tracking, and secure cloud storage.*
 > 
-> **Problem:** PDF layouts are extremely chaotic data streams. I built a multi-phase extraction pipeline using pdfjs-dist and Tesseract OCR to structuralize raw text blocks. This handles complex layout anomalies—including stripping tracking artifacts, collapsing letter-spaced running headers, and executing localized OCR on image-based chapter banner plaques.
+> **Problem:** Raw PDF data is a notoriously chaotic stream of unmapped text fragments and vector shapes. I engineered a multi-stage server-side parsing engine (`Express 5` + `pdfjs-dist`) that maps pages into logical content blocks (headings, prose, images). The pipeline runs concurrent worker routines to extract artwork and triggers `Tesseract.js` OCR to read context-dependent chapter banners.
 > 
-> **Testing:** To ensure parser updates don't cause layout regression, I developed a node-driven automated testing harness that compares parsed node outputs against an established baseline of complex text and image-heavy documents.
+> **Architecture & Testing:** Designed a strict state-versioning system (`PARSER_VERSION`) that triggers automated cache invalidation and document re-parsing across a `Supabase` storage layer. To prevent layout or structural regressions during updates, I built a custom test harness to validate code outputs against snapshots of massive text-heavy and illustration-heavy books.
 
 ### 🎹 PlayRight 
-> *A browser-based piano practice accelerator that parses raw MusicXML scores into interactive sheet music sheets paired with automated fingering prediction and dynamic keyboard tracking.*
+> *A browser-based piano practice accelerator that orchestrates real-time computer keyboard and MIDI performance tracking over dynamically rendered sheet music.*
 > 
-> **Problem:** Standard sheet music lacks intuitive finger assignments. I engineered a cost-based dynamic programming solver that analyzes phrase boundaries and hand-span constraints to calculate optimal digit placements over complex chords.
+> **Problem:** Converting raw engraving formats into a reactive learning platform requires extreme timing and state synchronization. I built a custom `MusicXML/MXL` ingestion pipeline using `fast-xml-parser` and `Zod` to compile musical scores into a strict step-by-step chord execution script. To automate guidance, I designed an ergonomic hand-span predictor using a cost-based Dynamic Programming solver.
 > 
-> **Architecture:** Designed a decoupled event processing architecture using a custom InputManager. This isolates high-frequency ASCII/MIDI hardware keystrokes from the core Zustand state machine, allowing the OpenSheetMusicDisplay (OSMD) canvas to highlight and scroll smoothly in sync with active performance thresholds.
+> **Core Mechanics & Performance:** Engineered a decoupled `InputManager` to map keyboard shortcuts and sliding 17-note core scopes directly into a global `Zustand` engine state. Features include an interactive **Program Mode** for step-by-step cross-hand fingering overrides, a high-performance rolling-window **Play Mode** utilizing `Tone.js` transport scheduling with incremental canvas diffing (`OpenSheetMusicDisplay`), and a secure `Clerk` and `Supabase RLS` personal library backend.
 
 ### ✍️ Michael's Babbles 
 > *A secure, interactive digital journaling space built on a layered parchment framework featuring deep rich-text formatting, search indexing, writing prompts, and real-time statistics tracking.*

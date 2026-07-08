@@ -2,7 +2,7 @@
 
 I’m a software engineer who enjoys making apps that bridge the gap between interests and clean digital systems. Whether translating real-world mechanics into code, or cleaning up messy data pipelines, I enjoy spending my free time with backend architecture, UI design and smart state management.
 
-Right now, I'm sharpening my skills in distributed systems and prepping for Winter 2027 SWE and AI Engineering internships.
+Right now, I am working on several side projects that align with my interests as well as improving my knowledge of distributed systems and DSA.
 
 ---
 
@@ -33,9 +33,9 @@ Right now, I'm sharpening my skills in distributed systems and prepping for Wint
 ### 🎹 PlayRight 
 > *A browser-based piano practice accelerator that orchestrates real-time computer keyboard and MIDI performance tracking over dynamically rendered sheet music.*
 > 
-> **Problem:** Converting raw engraving formats into a reactive learning platform requires extreme timing and state synchronization. I built a custom `MusicXML/MXL` ingestion pipeline using `fast-xml-parser` and `Zod` to compile musical scores into a strict step-by-step chord execution script. To automate guidance, I designed an ergonomic hand-span predictor using a cost-based Dynamic Programming solver.
+> **Problem:** Converting raw engraving formats into a reactive learning platform requires extreme timing and state synchronization. I built a custom `MusicXML/MXL` ingestion pipeline using `fast-xml-parser` and `Zod` to compile musical scores into a strict step-by-step chord execution script. To automate guidance, I designed an ergonomic hand-span predictor using a cost-based Dynamic Programming solver as well as training the integrated ML model on a dataset of piano fingerings.
 > 
-> **Core Mechanics & Performance:** Engineered a decoupled `InputManager` to map keyboard shortcuts and sliding 17-note core scopes directly into a global `Zustand` engine state. Features include an interactive **Program Mode** for step-by-step cross-hand fingering overrides, a high-performance rolling-window **Play Mode** utilizing `Tone.js` transport scheduling with incremental canvas diffing (`OpenSheetMusicDisplay`), and a secure `Clerk` and `Supabase RLS` personal library backend.
+> **Core Mechanics & Performance:** Engineered a decoupled `InputManager` to map keyboard shortcuts and sliding 17-note core scopes directly into a global `Zustand` engine state. Features include an interactive **Program Mode** for step-by-step cross-hand fingering overrides, a high-performance rolling-window **Play Mode** utilizing `Tone.js` transport scheduling with incremental canvas diffing (`OpenSheetMusicDisplay`), and a secure `Clerk` and `Supabase` personal library backend.
 
 ### ✍️ Michael's Babbles 
 > *A secure, interactive digital journaling space built on a layered parchment framework featuring deep rich-text formatting, search indexing, writing prompts, and real-time statistics tracking.*
@@ -60,9 +60,9 @@ When I'm not staring at a terminal or working through LeetCode problems, you can
 ## 🚀 Current Focus
 
 I'm currently scaling up my knowledge to handle enterprise-level systems and expanding my creative engineering toolkit:
-* **Infrastructure:** Diving deep into Docker and multi-container networking (docker-compose) to break heavy monolithic workflows into separate, asynchronous background workers.
+* **Infrastructure:** Diving deep into Docker and multi-container networking to break heavy monolithic workflows into separate, asynchronous background workers.
 * **Data & AI Rigor:** Building smarter systems with schema-enforced LLM parsing (getting clean JSON back from models every time) and learning the mechanics behind semantic vector search.
-* **Advanced Projects & 3D Assets:** Expanding game engineering mechanics by building out more complex interactions in projects like Meltdown. Also learning Blender to design and render custom 3D assets to build an immersive, highly visual personal portfolio website.
+* **Future Projects & 3D Assets:** Expanding game engineering mechanics by building out more complex interactions in projects like Meltdown. Also learning Blender to design and render custom 3D assets to build an immersive, highly visual personal portfolio website.
 
 ---
 

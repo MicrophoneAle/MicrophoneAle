@@ -23,19 +23,19 @@ Right now, I'm working on several side projects that align with my personal inte
 
 ## 🛠️ What I’ve Been Building Recently
 
-### 📚 Booky 
-> *An intelligent web reader that structuralizes unstructured PDFs into comfortable, highly custom digital layouts featuring dynamic chapter detection, live parsing progress tracking, and secure cloud storage.*
-> 
-> **Problem:** Raw PDF data is a notoriously chaotic stream of unmapped text fragments and vector shapes. I engineered a multi-stage server-side parsing engine (`Express 5` + `pdfjs-dist`) that maps pages into logical content blocks (headings, prose, images). The pipeline runs concurrent worker routines to extract artwork and triggers `Tesseract.js` OCR to read context-dependent chapter banners.
-> 
-> **Architecture & Testing:** Designed a strict state-versioning system (`PARSER_VERSION`) that triggers automated cache invalidation and document re-parsing across a `Supabase` storage layer. To prevent layout or structural regressions during updates, I built a custom test harness to validate code outputs against snapshots of massive text-heavy and illustration-heavy books.
-
 ### 🎹 PlayRight 
 > *A browser-based piano practice accelerator that orchestrates real-time computer keyboard and MIDI performance tracking over dynamically rendered sheet music.*
 > 
 > **Problem:** Converting raw engraving formats into a reactive learning platform requires extreme timing and state synchronization. I built a custom `MusicXML/MXL` ingestion pipeline using `fast-xml-parser` and `Zod` to compile musical scores into a strict step-by-step chord execution script. To automate guidance, I designed an ergonomic hand-span predictor using a cost-based Dynamic Programming solver as well as training the integrated ML model on a dataset of piano fingerings.
 > 
 > **Core Mechanics & Performance:** Engineered a decoupled `InputManager` to map keyboard shortcuts and sliding 17-note core scopes directly into a global `Zustand` engine state. Features include an interactive **Program Mode** for step-by-step cross-hand fingering overrides, a high-performance rolling-window **Play Mode** utilizing `Tone.js` transport scheduling with incremental canvas diffing (`OpenSheetMusicDisplay`), and a secure `Clerk` and `Supabase` personal library backend.
+
+### 📚 Booky 
+> *An intelligent web reader that structuralizes unstructured PDFs into comfortable, highly custom digital layouts featuring dynamic chapter detection, live parsing progress tracking, and secure cloud storage.*
+> 
+> **Problem:** Raw PDF data is a notoriously chaotic stream of unmapped text fragments and vector shapes. I engineered a multi-stage server-side parsing engine (`Express 5` + `pdfjs-dist`) that maps pages into logical content blocks (headings, prose, images). The pipeline runs concurrent worker routines to extract artwork and triggers `Tesseract.js` OCR to read context-dependent chapter banners.
+> 
+> **Architecture & Testing:** Designed a strict state-versioning system (`PARSER_VERSION`) that triggers automated cache invalidation and document re-parsing across a `Supabase` storage layer. To prevent layout or structural regressions during updates, I built a custom test harness to validate code outputs against snapshots of massive text-heavy and illustration-heavy books.
 
 ### ✍️ Michael's Babbles 
 > *A secure, interactive digital journaling space built on a layered parchment framework featuring deep rich-text formatting, search indexing, writing prompts, and real-time statistics tracking.*

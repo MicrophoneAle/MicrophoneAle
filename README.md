@@ -24,14 +24,14 @@ Right now, I'm working on several side projects that align with my personal inte
 ## 🛠️ What I’ve Been Building Recently
 
 ### 🎹 PlayRight 
-> *A browser-based piano practice accelerator that orchestrates real-time computer keyboard and MIDI performance tracking over a dynamically rendered sheet music display.*
+> *A browser-based piano practice-alternative accelerator that orchestrates real-time computer keyboard and MIDI performance tracking over a dynamically rendered sheet music display.*
 > 
 > **Problem:** Converting raw sheet music file formats into a reactive learning platform requires extreme timing and state synchronization. I built a custom `MusicXML/MXL` ingestion pipeline using `fast-xml-parser` and `Zod` to compile musical scores into a strict step-by-step chord execution script. To automate guidance, I designed an ergonomic hand-span predictor using a cost-based Dynamic Programming solver as well as training the integrated ML model on a dataset of piano fingerings.
 > 
 > **Core Mechanics & Performance:** Engineered a decoupled `InputManager` to map keyboard shortcuts and sliding 17-to-21-note core scopes directly into a global `Zustand` engine state. Features include an interactive **Program Mode** for step-by-step cross-hand fingering overrides, a high-performance rolling-window **Play Mode** utilizing `Tone.js` transport scheduling with incremental canvas diffing (`OpenSheetMusicDisplay`), and a secure `Clerk` and `Supabase` personal library backend.
 
 ### 📚 Booky 
-> *An intelligent web reader that structuralizes unstructured PDFs into comfortable, highly custom digital layouts featuring dynamic chapter detection, live parsing progress tracking, and secure cloud storage.*
+> *A web reader that compiles unstructured PDFs into readable, highly custom digital layouts featuring dynamic chapter detection, live parsing progress tracking, and secure cloud storage.*
 > 
 > **Problem:** Raw PDF data is a generally chaotic stream of unmapped text fragments and vector shapes. I engineered a multi-stage server-side parsing engine (`Express 5` + `pdfjs-dist`) that maps pages into logical content blocks (headings, prose, images). The pipeline runs concurrent worker routines to extract artwork and triggers `Tesseract.js` OCR to read context-dependent chapter banners and images.
 > 

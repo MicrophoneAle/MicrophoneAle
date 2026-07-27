@@ -1,6 +1,6 @@
 # Hi, I'm Michael 👋
 
-I’m a software engineer who enjoys making things that bridge the gap between interests and clean digital systems. Whether translating real-world mechanics into code, or cleaning up messy data pipelines, I enjoy spending my free time with backend architecture, UI design and discovering new technologies.
+I’m a software engineer who enjoys making things that bridge the gap between personal/professional interests and software systems. Whether translating real-world mechanics into code, or cleaning up data pipelines, I enjoy spending my free time with backend architecture, UI design and discovering new technologies.
 
 Right now, I'm working on several side projects that align with my personal interests as well as improving my knowledge of distributed systems, delving into schema-enforced LLM pipelines and mastering Blender to build an immersive 3D personal website.
 
@@ -59,9 +59,9 @@ When I'm not staring at a terminal or working through LeetCode problems, you can
 
 ## 🚀 Current Focus
 
-I'm currently scaling up my knowledge to handle enterprise-level systems and expanding my creative engineering toolkit:
+I'm currently scaling up my knowledge to handle enterprise-level systems and expanding my engineering skills:
 * **Infrastructure:** Diving deep into Docker and multi-container networking to break heavy monolithic workflows into separate, asynchronous background workers.
-* **Data & AI Rigor:** Building smarter systems with schema-enforced LLM parsing (getting clean JSON back from models every time) and learning the mechanics behind semantic vector search.
+* **Data & AI:** Building smarter systems with schema-enforced LLM parsing and learning the mechanics behind semantic vector search.
 * **Future Projects & 3D Assets:** Expanding game engineering mechanics by building out more complex interactions in projects like Meltdown. Also learning Blender to design and render custom 3D assets to build an immersive, highly visual personal portfolio website.
 
 ---

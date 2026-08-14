@@ -62,7 +62,7 @@ When I'm not staring at a terminal or working through LeetCode problems, you can
 I'm currently scaling up my knowledge to handle enterprise-level systems and expanding my engineering skills:
 * **Infrastructure:** Diving deep into Docker and multi-container networking to break heavy monolithic workflows into separate, asynchronous background workers.
 * **Data & AI:** Building smarter systems with schema-enforced LLM parsing and learning the mechanics behind semantic vector search.
-* **Future Projects & 3D Assets:** Expanding game engineering mechanics by building out more complex interactions in projects like Meltdown. Also learning Blender to design and render custom 3D assets to build an immersive, highly visual personal portfolio website.
+* **Future Projects & 3D Assets:** Expanding game engineering mechanics by building out more complex interactions in certain projects. Also learning Blender to design and render custom 3D assets to build an immersive, highly visual personal portfolio website.
 
 ---
 

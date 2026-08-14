@@ -1,8 +1,8 @@
 # Hi, I'm Michael 👋
 
-I’m a software engineer who enjoys making things that bridge the gap between personal/professional interests and clean digital systems. Whether translating real-world mechanics into code or cleaning up data pipelines, I enjoy spending my free time with backend architecture, UI design and discovering new technologies.
+I'm a software engineer passionate about bridging the gap between intricate real-world workflows and code. From designing asynchronous backend services to polishing UI state architecture, I focus on building systems that are both technically sound and intuitive to use.
 
-Right now, I'm working on several side projects that align with my personal interests as well as improving my knowledge of distributed systems, delving into schema-enforced LLM pipelines and mastering Blender to build an immersive 3D personal website.
+Currently, I'm building side projects that explore distributed data pipelines, hybrid search and LLM orchestration. I'm also honing my 3D modeling skills in Blender to experiment with interactive, spatial web experiences.
 
 ---
 

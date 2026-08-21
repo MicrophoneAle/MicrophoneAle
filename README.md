@@ -1,6 +1,6 @@
 # Hi, I'm Michael 👋
 
-I'm a software engineer passionate about bridging the gap between intricate real-world workflows and code. From designing asynchronous backend services to polishing UI state architecture, I focus on building systems that are both technically sound and intuitive to use.
+I'm a software engineer passionate about bridging the gap between intricate real-world workflows and code. From designing asynchronous backend services to polishing UIs, I focus on building systems that are both technically sound and intuitive to use.
 
 Currently, I'm building side projects that explore distributed data pipelines, hybrid search and LLM orchestration. I'm also honing my 3D modeling skills in Blender to experiment with interactive, spatial web experiences.
 
